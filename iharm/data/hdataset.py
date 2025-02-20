@@ -18,8 +18,9 @@ class HDataset(BaseHDataset):
         self._composite_images_path = self.dataset_path / 'composite_images'
         self._masks_path = self.dataset_path / 'masks'
 
-        images_lists_paths = [x for x in self.dataset_path.glob('*.txt') if x.stem.endswith(split)]
-        assert len(images_lists_paths) == 1
+        # images_lists_paths = [x for x in self.dataset_path.glob('*.txt') if x.stem.endswith(split)]
+        # assert len(images_lists_paths) == 1
+        images_lists_paths = [f'{self.dataset_path}/CDT_test.txt']
 
         with open(images_lists_paths[0], 'r') as f:
             self.dataset_samples = [x.strip() for x in f.readlines()]

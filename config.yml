@@ -1,12 +1,12 @@
-MODELS_PATH: "/home/taoxinhao/CDTNet-High-Resolution-Image-Harmonization/models"
+MODELS_PATH: "checkpoints"
 EXPS_PATH: "/home/taoxinhao/CDTNet-High-Resolution-Image-Harmonization/exps"
 
-HFLICKR_PATH: "/data/share/IHD/HFlickr"
-HDAY2NIGHT_PATH: "/data/share/IHD/Hday2night"
-HCOCO_PATH: "/data/share/IHD/HCOCO"
-HADOBE5K_PATH: "/data/share/IHD/HAdobe5k"
-CCHARMONY_PATH: "/data/caojunyan/datasets/ccHarmony"
-HR_PATH: "/data/caojunyan/datasets/HR"
+HFLICKR_PATH: "data/iharmony4/HFlickr"
+HDAY2NIGHT_PATH: "data/iharmony4/Hday2night"
+HCOCO_PATH: "data/iharmony4/HCOCO"
+HADOBE5K_PATH: "data/iharmony4/HAdobe5k"
+CCHARMONY_PATH: "data/caojunyan/datasets/ccHarmony"
+HR_PATH: "data/caojunyan/datasets/HR"
 
 IMAGENET_PRETRAINED_MODELS:
   HRNETV2_W18_SMALL: ""

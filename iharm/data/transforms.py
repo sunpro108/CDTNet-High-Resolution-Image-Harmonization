@@ -10,7 +10,7 @@ class HCompose(Compose):
                 'target_image': 'image',
                 'object_mask': 'mask'
             }
-        self.additional_targets = additional_targets
+        additional_targets = additional_targets
         super().__init__(transforms, *args, additional_targets=additional_targets, **kwargs)
         if no_nearest_for_masks:
             for t in transforms:
